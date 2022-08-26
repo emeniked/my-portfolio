@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sectionA .navbar {
+     width: 100%;
+     height: 77px;
+     background-color: rgb(242, 242, 242);
+}
+.sectionA .navbar img {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+.sectionA .navbar a img {
+  margin-left: 100px;
+}
+.sectionA .navbar a img:hover {
+    background: rgb(201, 228, 249);
+  }
+  .sectionB {
+    height: 67px;
+  }
+  .sectionB h1 {
+    margin-left: 100px;
+    margin-top: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+  }
+  .sectionC {
+    background-color: rgb(241, 243, 247);
+    width: 100%;
+    height: max-content;
+    padding: 0px 10px;
+
+  }
+  .sectionC .wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+  .sectionC .wrapper {
+   margin: 20px 0;
+   display: flex;
+  }
+  .sectionC .wrapper img, .sectionC .wrapper .passage{
+    flex:1;
+
+  }
+  .sectionC .wrapper img{
+    width: 200px;
+    height: 550px;
+  }
+  .sectionC .passage{
+  padding:10px
+  }
+.sectionC .passage h3 {
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight:bold ;
+    font-size: 20px;
+}
+.sectionC .passage h1 {
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(236, 59, 9);
+  font-size: 2rem;
+}
+.sectionC .passage p {
+    margin-top: 15px;
+   font-size: 20px;
+}
+.sectionC .passage button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background:  rgb(236, 59, 9);
+    border: none;
+    font-size: large;
+   padding: 10px 30px;
+   margin-top: 45px;
+}.sectionC .passage button a {
+ text-decoration: none;
+ color: white;
+}
+
+.sectionC .passage button:hover {
+    cursor: pointer;
+    background: black;
+}
+ .overall_card {
+  position: relative;
+  top: -120px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 2px;
+    column-gap: 2px;
+ }
+ .overall_card .stcard,  .overall_card .ndcard,  .overall_card .rdcard{
+  flex: 1;
+ }
+
+ .overall_card .stcard img,  .overall_card .ndcard img,  .overall_card .rdcard img{
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+ }
+.sectionC .overall_card .stcard {
+   
+    display: inline-block;
+    background-color: rgb(236, 59, 9);
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    height: 410px;
+}
+.sectionC .overall_card .stcard:hover {
+  background: darkblue;
+  border-radius: 30px;
+  transition: 1s ease-out;
+}
+.sectionC .overall_card .stcard img {
+    margin-top: 40px;
+    margin-left: -20px;
+    border-radius: 50%;
+}
+.sectionC .overall_card .stcard h1 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+  margin-top: 30px;
+}
+.sectionC .overall_card .stcard p {
+    font-weight:1px ;
+    border: 10px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  margin-top: 30px;
+}
+.sectionC .overall_card .stcard button {
+    font-weight: bold;
+    font-size: large;
+    padding: 12px 27px;
+    border: none;
+    color: rgb(236, 59, 9);
+    background: white;
+   margin-top: 35px;
+}
+.sectionC .overall_card .stcard button a {
+  color: rgb(236, 59, 9);
+ text-decoration: none;
+}
+.sectionC .overall_card .ndcard {
+    display: inline-block;
+    background-color: rgb(251, 111, 0);
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    height: 410px;
+}
+.sectionC .overall_card .ndcard:hover {
+  border-radius: 30px;
+  background: fuchsia;
+  transition: 1s ease-in ;
+}
+.sectionC .overall_card .ndcard img {
+    margin-top: 40px;
+    margin-left: -20px;
+    border-radius: 50%;
+}
+.sectionC .overall_card .ndcard h1 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+  margin-top: 30px;
+}
+.sectionC .overall_card .ndcard p {
+    font-weight:1px ;
+    border: 10px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  margin-top: 30px;
+}
+.sectionC .overall_card .ndcard button {
+    font-weight: bold;
+    font-size: large;
+    padding: 12px 27px;
+    border: none;
+    color: rgb(251, 111, 0);
+    background: white;
+   margin-top: 35px;
+}
+.sectionC .overall_card .ndcard button a {
+  color: rgb(251, 111, 0);
+  text-decoration: none;
+}
+.sectionC .overall_card .rdcard {
+    display: inline-block;
+    background-color: rgb(252, 154, 76);
+    justify-content: center;
+    text-align: center;
+    flex:1;
+    height: 410px;
+}
+.sectionC .overall_card .rdcard:hover {
+  border-radius: 30px;
+  background: deepskyblue;
+  transition: 1s ease-in;
+}
+.sectionC .overall_card .rdcard h1 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+  margin-top: 30px;
+}
+.sectionC .overall_card .rdcard p {
+    font-weight:1px ;
+    border: 10px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  margin-top: 30px;
+}
+.sectionC .overall_card .rdcard button {
+    font-weight: bold;
+    font-size: large;
+    padding: 12px 27px;
+    border: none;
+    color: rgb(252, 154, 76);
+    background: white;
+   margin-top: 35px;
+}
+.sectionC .overall_card .rdcard button a {
+  color: rgb(252, 154, 76);
+  text-decoration: none;
+}
+.sectionC .overall_card button:hover {
+    cursor: pointer;
+    background: black;
+}
+.sectionD {
+  align-items: center;
+  margin-top: 100px;
+  background-color: rgb(51, 51, 51);
+  width: 100%;
+padding: 20px 10px;
+}
+.sectionD h1 {
+  text-align: center;
+   color: white;
+   font-weight: 1px;
+   font-size: x-large;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ @media screen  and (max-width:480px){
+  .sectionC .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .sectionA .navbar a{
+    display: none;
+   }
+   .sectionC .overall_card {
+    flex-direction: column;
+   }
+ }
