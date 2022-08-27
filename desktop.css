@@ -287,3 +287,27 @@ padding: 20px 10px;
     padding: 30px;
    }
  }
+ @media screen and (min-width: 481px) and (max-width: 768px){
+  .sectionC .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .sectionA .navbar a{
+    display: none;
+   }
+   .sectionC .overall_card {
+    margin-top: 130px;
+    flex-direction: column;
+    row-gap: 30px;
+   }
+   .stcard {
+    padding: 30px;
+   }
+   .ndcard {
+    padding: 30px;
+   }
+   .rdcard {
+    padding: 30px;
+   }
+ }
