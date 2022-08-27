@@ -43,13 +43,13 @@
    margin: 20px 0;
    display: flex;
   }
-  .sectionC .wrapper img, .sectionC .wrapper .passage{
+  .sectionC .wrapper , .sectionC .wrapper .passage{
     flex:1;
 
   }
-  .sectionC .wrapper img{
-    width: 200px;
-    height: 550px;
+  .fishes {
+    height: 650px;
+    width: 550px;
   }
   .sectionC .passage{
   padding:10px
@@ -309,5 +309,5 @@ padding: 20px 10px;
    }
    .rdcard {
     padding: 30px;
-   }
+   } 
  }
