@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .fish {
+   width: 100%;
+   font-size: 45px;
+   text-align: center;
+   color: orangered;
+   border-bottom: 5px solid rgb(203, 122, 100);
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar{
+   width: 50%;
+   height: 70px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 20px;
+}
+.navbar img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+.navbar li a {
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   }
+.navbar li {
+list-style-type: none;
+color: black;
+font-size: 20px;
+}
+.navbar li:hover {
+   border-bottom: 5px solid  #01ce69;
+   transition: 1s ;
+   }
+ .sectionA {
+    margin-top: 30px;
+    display: flex;
+    background-color: rgb(165, 170, 176); 
+ }
+ .sectionA h1 {
+    font-size: 60px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .sectionA p {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: white;
+    font-size: 22px;
+ }
+.top {
+   padding: 100px 20px 150px 20px;
+   flex: 1;
+}
+ .sectionA img {
+   flex: 1;
+   width: 750px;
+   height: 550px;
+}
+.sectionB {
+   width: 100%;
+   height: 800px;
+   background-color: white;
+}
+.sectionB .overall_card {
+   display: flex;
+   text-align: center;
+   justify-content: space-evenly;
+}
+.sectionB h1 {
+   padding: 100px 0px 100px 50px;
+   font-size: 50px;
+   font-weight: lighter;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sectionB img {
+   width: 250px;
+   height: 200px;
+   border-radius: 10px;
+ }
+ .sectionB h3 {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 50px;
+   font-weight: bold;
+    font-size: 30px;
+ }
+ .sectionB p {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+ }
+.sectionC {
+   width: 100%;
+   height: 1000px;
+   background-color: rgb(9, 9, 9);
+}
+.sectionC .c-top {
+   padding: 50px;
+   display: flex;
+   text-align: center;
+   justify-content: space-evenly;
+}
+.sectionC h2 {
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 50px;
+   font-weight: bold;
+    font-size: 30px;
+ }
+ .sectionC h1 {
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 50px;
+   font-weight: bold;
+    font-size: 40px;
+ }
+ .sectionC p {
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+ }
+ .sectionD {
+   width: 100%;
+   height: 700px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+ }
+ .sectionD h1 {
+   font-weight: normal;
+   font-size: 50px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding: 100px;
+ }
+ .sectionD p {
+   color: rgb(118, 118, 118);
+   font-weight: lighter;
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .sectionD .img {
+   padding: 50px;
+ }
+ .sectionD .img img {
+   border-radius: 50%;
+ }
+ .sectionD button {
+   background-color: black;
+   color: white;
+   font-weight: normal;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   font-size: 20px;
+   width: 250px;
+   border-radius: 20px;
+   padding: 15px;
+ }
+ .sectionD button:hover {
+   margin-bottom: 5px;
+   transition: 1s;
+   box-shadow: 5px 5px 5px black;
+ }
+ .sectionD button a {
+   text-decoration: none;
+   color: #fff;
+ }
+ .sectionE {
+   align-items: center;
+   background-color: rgb(51, 51, 51);
+   width: 100%;
+ padding: 20px 10px;
+ }
+ .sectionE h1 {
+    text-align: center;
+    color: white;
+    font-weight: 1px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ @media screen and (min-width:10px) and (max-width:480px) {
+   .sectionA {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+   .navbar {
+      width: 100%;
+      display: flex;
+   }
+   .navbar img {
+      display: none;
+   }
+   .sectionA img {
+      display: none;
+   }
+   .sectionB .overall_card {
+      display: flex;
+      flex-direction: column;
+   }
+   .sectionC {
+      display: none;
+   }
+   .sectionD h1 {
+      display: none;
+   }
+   .sectionD p {
+      display: none;
+   }
+   .sectionD img {
+      display: none;
+   }
+   .sectionD span {
+      display: none;
+   }
+   .sectionD h4 {
+      display: none;
+   }
+   .sectionD button {
+      display: flex;
+      text-align: center;
+      margin-top: 650px;
+   }
+   .sectionE {
+      margin-top: 150px;
+   }
+ }
+ @media screen and (min-width:481px) and (max-width:769px) {
+   .sectionA {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+   .navbar {
+      width: 100%;
+      display: flex;
+   }
+   .navbar img {
+      display: none;
+   }
+   .sectionA img {
+      display: none;
+   }
+   .sectionB .overall_card {
+      display: flex;
+      flex-direction: column;
+   }
+   .sectionC {
+      display: none;
+   }
+   .sectionD h1 {
+      display: none;
+   }
+   .sectionD p {
+      display: none;
+   }
+   .sectionD img {
+      display: none;
+   }
+   .sectionD span {
+      display: none;
+   }
+   .sectionD h4 {
+      display: none;
+   }
+   .sectionD button {
+      display: flex;
+      text-align: center;
+      margin-top: 650px;
+   }
+   .sectionE {
+      margin-top: 150px;
+   }
+ }
+ @media screen and (min-width:769px) and (max-width:1114px) {
+   .sectionA {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+   .navbar {
+      width: 100%;
+      display: flex;
+   }
+   .navbar img {
+      display: none;
+   }
+   .sectionA img {
+      display: none;
+   }
+   .sectionB .overall_card {
+      display: flex;
+      flex-direction: column;
+   }
+   .sectionC {
+      display: none;
+   }
+   .sectionD h1 {
+      display: none;
+   }
+   .sectionD p {
+      display: none;
+   }
+   .sectionD img {
+      display: none;
+   }
+   .sectionD span {
+      display: none;
+   }
+   .sectionD h4 {
+      display: none;
+   }
+   .sectionD button {
+      display: flex;
+      text-align: center;
+      margin-top: 650px;
+   }
+   .sectionE {
+      margin-top: 150px;
+   }
+}

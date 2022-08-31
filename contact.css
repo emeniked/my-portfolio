@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sectionA {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.sectionA h1 {
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    width: 80%;
+    height: 75px;
+    border-bottom: 3px solid yellow;
+}
+.sectionA h3 {
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}  
+.sectionB .overall_card {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+} 
+.sectionB .overall_card .stcard {
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid green;
+}
+.sectionB .overall_card .stcard:hover {
+    cursor: pointer;
+    background: green;
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    border: 2px solid green;
+    box-shadow: 10px 10px 10px black;
+}
+ .sectionB .overall_card .stcard h1 {
+    padding-top: 10px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 33px;
+}
+ .sectionB .overall_card .stcard p {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .sectionB .overall_card .stcard button {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+ .sectionB .overall_card .stcard button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 255, 0);
+    box-shadow: 5px 5px 10px black;
+}
+.sectionB .overall_card .ndcard {
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+}
+.sectionB .overall_card .ndcard:hover {
+    cursor: pointer;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    transition: 1s;
+    box-shadow: 10px 10px 10px black;
+}
+ .sectionB .overall_card .ndcard h1 {
+    padding-top: 10px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 33px;
+}
+ .sectionB .overall_card .ndcard p {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .sectionB .overall_card .ndcard button {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+ .sectionB .overall_card .ndcard button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.sectionB .overall_card .rdcard {
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+
+}
+.sectionB .overall_card .rdcard:hover {
+    cursor: pointer;
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    border: 2px solid blue;
+    box-shadow: 10px 10px 10px black;
+}
+ .sectionB .overall_card .rdcard h1 {
+    padding-top: 10px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 33px;
+}
+ .sectionB .overall_card .rdcard p {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .sectionB .overall_card .rdcard button {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+ .sectionB .overall_card .rdcard button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 255);
+    box-shadow: 5px 5px 10px black;
+}
+@media screen and (min-width:10px) and (max-width:480px) {
+    .sectionB .overall_card {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:1027px) {
+    .sectionB .overall_card {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}
+     .overall_card.stcard {
+        width: 400px;
+        height: 400px;
+    }
+    .overall_card .ndcard {
+        width: 400px;
+        height: 400px;
+    }
+    .overall_card .rdcard {
+        width: 400px;
+        height: 400px;
+    }
